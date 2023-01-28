@@ -31,15 +31,15 @@ export default defineNuxtConfig({
     },
   },
   modules: [
-    'nuxt-icon'
-    // [
-    //   // Nuxt Robots
-    //   '@nuxtjs/robots',
-    //   {
-    //     UserAgent: "*",
-    //     Disallow: "",
-    //   }
-    // ],
+    'nuxt-icon',
+    [
+      // Nuxt Robots
+      '@nuxtjs/robots',
+      {
+        UserAgent: "*",
+        Disallow: "",
+      }
+    ],
   ],
   runtimeConfig:{
     public :{
